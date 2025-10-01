@@ -118,6 +118,8 @@ sudo chmod -R 0777 /home/ubuntu/ansible-config-artifact
 ```bash
 ls -la /home/ubuntu/ansible-config-artifact
 ```
+  ![Images](images/image1.png)
+  ![Images](images/image2.png)
 
 * You should see the copied artifacts. If not, check Jenkins job console for errors.
 

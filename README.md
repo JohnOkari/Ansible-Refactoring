@@ -195,8 +195,9 @@ Save this file as `static-assignments/common-del.yml`:
 
 ```bash
 cd /home/ubuntu/ansible-config-mgt
-ansible-playbook -i inventory/dev.yml playbooks/site.yml
+ansible-playbook -i inventory/dev.ini playbooks/site.yml
 ```
+  ![Images](images/image3.png)
 
 Verify `wireshark` is removed on target servers (e.g. `wireshark --version` or `which wireshark` should fail).
 

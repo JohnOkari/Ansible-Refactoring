@@ -390,8 +390,9 @@ git push origin refactor
 eval "$(ssh-agent -s)"
 ssh-add /path/to/your/private_key.pem
 # run the site against uat
-ansible-playbook -i inventory/uat.yml playbooks/site.yml
+ansible-playbook -i inventory/uat.ini playbooks/site.yml
 ```
+![Images](images/image4.png)
 
 ### 7.4 Verify web servers are serving site
 

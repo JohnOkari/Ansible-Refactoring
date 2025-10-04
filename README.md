@@ -392,7 +392,7 @@ ssh-add /path/to/your/private_key.pem
 # run the site against uat
 ansible-playbook -i inventory/uat.ini playbooks/site.yml
 ```
-![Images](images/image4.png)
+  ![Images](images/image4.png)
 
 ### 7.4 Verify web servers are serving site
 
@@ -402,6 +402,7 @@ From your laptop or a jump host, try:
 curl -I http://<Web1-UAT-public-ip>/index.php
 curl -I http://<Web2-UAT-public-ip>/index.php
 ```
+  ![Images](images/image5.png)
 
 Or open in browser:
 
@@ -409,6 +410,8 @@ Or open in browser:
 http://<Web1-UAT-public-ip>/index.php
 http://<Web2-UAT-public-ip>/index.php
 ```
+  ![Images](images/image7.png)
+  ![Images](images/image6.png)
 
 Also check service status on each UAT server:
 
